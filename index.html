@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://machinecoin.org/assets/img/favicon.ico">
+
+		<title>Machinecoin Charity Project</title>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			var macHelper = new $.MACHelper();
+		</script>
+	</head>
+	<style>
+		@font-face {
+			font-family: Steampunk;
+			src: url(assets/fonts/font.ttf);
+		}
+		
+		main {
+			margin-top: 15vh;
+		}
+		@media (max-width: 815px) {
+			main {
+				margin-top: 5vh !important;
+			}
+			.mdl-grid {
+				width: 100% !important;
+			}
+			.project-card {
+				margin-left: 7.5% !important;
+				margin-bottom: 5vh;
+			}
+		}
+		
+		.mdl-layout-title {
+			font-family: Steampunk !important;
+			letter-spacing: 6px;
+		}
+		.mdl-layout-title > b {
+			color: rgb(243, 246, 225) !important;
+			color: #4A4333 !important;
+		}
+		.demo-layout-transparent {
+			background: url('assets/img/bg1.jpg') center / cover;
+		}
+		.demo-layout-transparent .mdl-layout__header,
+		.demo-layout-transparent .mdl-layout__drawer-button {
+			/* This background is dark, so we set text to white. Use 87% black instead if
+			your background is light. */
+			color: white;
+		}
+		.mdl-grid {
+			width: 90%;
+		}
+		.project-card {
+			margin-left: 10%;
+			width: 80%;
+			height: 440px;
+			background: radial-gradient(circle, rgb(243, 246, 225), rgb(247, 240, 212), rgb(236, 211, 170)) !important;
+			border-width: 6px 6px 6px 6px !important;
+			border-color: #514B3F !important;
+			border-style: double !important;
+			border-radius: 0px !important;
+
+			box-shadow: 1px 1px 15px black;
+		}		
+		.project-card > .mdl-card__title {
+			background-color: white !important;
+			box-shadow: 1px 1px 15px black;
+		}
+		.project-card-american-cancer > .mdl-card__title {
+			background: url('https://upload.wikimedia.org/wikipedia/en/thumb/4/47/American_Cancer_Society_Logo.svg/1280px-American_Cancer_Society_Logo.svg.png') center center no-repeat;
+			background-size: cover;  
+		}
+		.project-card-wwf > .mdl-card__title {
+			background: url('http://www.cakex.org/sites/default/files/WWF.png') center center no-repeat;
+			background-size: cover;
+		}
+		.mdl-card__title > h2 {
+			font-family: Steampunk !important;
+			letter-spacing: 1.5px;
+			color: rgb(243, 246, 225) !important;
+			background-color: #4A4333;
+			padding: 7.5px;
+			border: 1px dashed rgb(243, 246, 225);
+			box-shadow: 1px 1px 7.5px black;
+		}
+		.mdl-card__supporting-text {
+			width: 100%;
+			border-top: 3px dotted #514B3F !important;
+		}
+		.mdl-card__supporting-text > h5 > span {
+			display: none;
+		}
+		.mdl-card__supporting-text > h5 {
+			font-family: Steampunk !important;
+			letter-spacing: 1.75px;
+		}
+		.mdl-button {
+			font-family: Steampunk !important;
+			letter-spacing: 1.75px;
+			box-shadow: 0px 0px 1px #514B3F;
+		}
+		.mdl-progress {
+			width: 100%;
+		}
+		.mdl-progress.mdl-progress--indeterminate>.bar1, .mdl-progress.mdl-progress__indeterminate>.bar1, .mdl-progress.mdl-progress--indeterminate>.bar3, .mdl-progress.mdl-progress__indeterminate>.bar3 {
+			background-color: #4A4333 !important;
+		}
+		.footer-text {
+			color: white;
+			position: fixed;
+			bottom: 15px;
+			font-family: Steampunk !important;
+			letter-spacing: 2px;
+			background: radial-gradient(circle, #962014, #9E2E2D, #9E2E2D);
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 300;
+			filter: drop-shadow(1px 1px 2px black);
+		}
+		.footer-text > a {
+			color: #D2CB8C;
+		}
+		.footer-text:before {
+			content: "";
+			position: absolute;
+			border-bottom: 30px solid transparent;
+			border-left: 40px solid #9E2E2D;
+			border-top: 30px solid transparent;
+			height: 0px;
+			width: 0px;
+			margin-top: -10px;
+			margin-left: 220px;
+		}
+	</style>
+	<body>
+
+		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header mdl-layout__header--transparent">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span style="text-transform:uppercase" class="mdl-layout-title"><b>Machinecoin Charity</b></span>
+				</div>
+			</header>
+			<main class="mdl-layout__content">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--6-col">
+						<div class="project-card project-card-american-cancer mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text">American Cancer</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								<h5><b>Balance:</b> <span class="balance-american-cancer"></span></h5>
+								<br>
+								ME7pPya6zQH1Z1JEwrsQaWfFkkvxHEBzEY
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a onclick="macHelper.openExplorer('address', 'ME7pPya6zQH1Z1JEwrsQaWfFkkvxHEBzEY')" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+									Machinecoin Explorer
+								</a>
+							</div>
+							<div id="p1" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--6-col">
+						<div class="project-card project-card-wwf mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text">World Wide Fund For Nature</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								<h5><b>Balance:</b> <span class="balance-wwf"></span></h5>
+								<br>
+								MWbVkCbr49pDyVbeRy7sjfsNAXkHdZ8hZE
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a onclick="macHelper.openExplorer('address', 'MWbVkCbr49pDyVbeRy7sjfsNAXkHdZ8hZE')" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+									Machinecoin Explorer
+								</a>
+							</div>
+							<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<span class="footer-text">
+					Background by <a target="_blank" href="http://floppybootstomp.deviantart.com/">FloppyBootStomp</a>
+					<br>
+					Font by <a target="_blank" href="http://www.fontspace.com/the-fontry">The Fontry</a>
+				</span>
+			</main>
+		</div>
+		<script>
+			macHelper.loadBalance("ME7pPya6zQH1Z1JEwrsQaWfFkkvxHEBzEY", $(".balance-american-cancer"));
+			macHelper.loadBalance("MWbVkCbr49pDyVbeRy7sjfsNAXkHdZ8hZE", $(".balance-wwf"));
+		</script>
+		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+	</body>
+</html>
