@@ -1,1 +1,1 @@
-# charity.machinecoin.org
+# charity.machinecoin.xyz
