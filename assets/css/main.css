@@ -66,6 +66,10 @@
 			background: url('http://www.cakex.org/sites/default/files/WWF.png') center center no-repeat;
 			background-size: cover;
 		}
+		.project-card-skl > .mdl-card__title {
+			background: url('http://www.strassenkinder-leipzig.de/assets/images/brand/logo.png') center center no-repeat;
+			background-size: 40%;
+		}
 		.mdl-card__title > h2 {
 			font-family: Steampunk !important;
 			letter-spacing: 1.5px;
