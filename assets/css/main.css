@@ -59,15 +59,15 @@
 			box-shadow: 1px 1px 15px black;
 		}
 		.project-card-american-cancer > .mdl-card__title {
-			background: url('https://upload.wikimedia.org/wikipedia/en/thumb/4/47/American_Cancer_Society_Logo.svg/1280px-American_Cancer_Society_Logo.svg.png') center center no-repeat;
+			background: url('../img/amca.png') center center no-repeat;
 			background-size: cover;  
 		}
 		.project-card-wwf > .mdl-card__title {
-			background: url('http://www.cakex.org/sites/default/files/WWF.png') center center no-repeat;
+			background: url('../img/WWF.png') center center no-repeat;
 			background-size: cover;
 		}
 		.project-card-skl > .mdl-card__title {
-			background: url('http://www.strassenkinder-leipzig.de/assets/images/brand/logo.png') center center no-repeat;
+			background: url('../img/skl.png') center center no-repeat;
 			background-size: 40%;
 		}
 		.mdl-card__title > h2 {
