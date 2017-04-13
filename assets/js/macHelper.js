@@ -27,8 +27,8 @@
 
 
     $.MACHelper.defaultOptions = {
-		blockChainURL: "http://explorer.machinecoin.org",
-		blockChainAPIURL: "http://explorer.machinecoin.org/api",
+		blockChainURL: "https://explorer.machinecoin.org",
+		blockChainAPIURL: "https://explorer.machinecoin.org/api",
 		addressURL: "/address/{{addr}}",
 		balanceURL: "/addr/{{addr}}",
     };
